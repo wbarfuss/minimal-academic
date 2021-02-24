@@ -1,5 +1,6 @@
 /* Minimal Academic: a two-column Hugo theme for personal sites inspired by Hugo Academic & Minimal Mistakes */
 /* Designed by Joshua Hu */
+/* Adjusted by Wolf Barfuss */
 
 * {
   box-sizing: border-box;
@@ -80,25 +81,28 @@ body.overflow--hidden {
   overflow: hidden;
 }
 a, a:active, a:visited {
-  color: #05668d;
+  color: #000000;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Merriweather";
+  font-family: "Open Sans";
   font-weight: bold;
   line-height: 1.25;
 
   margin: 2em 0 .5em;
 }
 h1 {
-  font-size: 1.563em;
+  font-size: 1.2em;
 
   margin-top: 0;
 }
 h1 a {
   text-decoration: none;
 }
+h1 a:hover {
+  color: rgb(13, 146, 124);
+}
 h2 {
-  font-size: 1.25em;
+  font-size: 1.125em;
 }
 h3 {
   font-size: 1em;
@@ -195,7 +199,7 @@ figure.third figcaption {
   width: 100%;
 }
 figcaption {
-  font-family: Merriweather;
+  font-family: "Open Sans";
   font-size: .75em;
 
   margin-bottom: .5em;
@@ -267,12 +271,12 @@ nav li ul, nav li ol {
 
   clear: both;
 
-  height: 500px;
+  height: 96px;
   margin-bottom: -32px;
-
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
+  background-color: #e7e7e7;
+  /* background-repeat: no-repeat; */
+  /* background-position: bottom; */
+  /* background-size: cover; */
 }
 
 .navbar-hero {
@@ -280,14 +284,19 @@ nav li ul, nav li ol {
 }
 
 .navbar-hero nav, .navbar-hero a {
-  font-family: "Merriweather";
-  font-size: 1em;
+  font-family: "Open Sans";
+  font-size: 1em; 
+  font-weight: 600;
+  text-decoration: none;
 
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
+.navbar-hero a:hover {  
+  color: rgb(13, 146, 124);
+}
 .navbar-hero nav {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 @media (max-width: 64em) {
@@ -295,9 +304,10 @@ nav li ul, nav li ol {
     height: 30px;
   }
   .navbar-hero a {
-    color: #fff;
+    color: rgb(0, 0, 0);
   }
 }
+
 
 /* Sidebar */
 
@@ -320,7 +330,7 @@ nav li ul, nav li ol {
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
 
-    color: #fff;
+    /* color: #fff; */
   }
   .masthead-hero {
     margin-bottom: -88px;
@@ -344,12 +354,12 @@ nav li ul, nav li ol {
   }
 }
 .sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6 {
-  font-family: "Merriweather";
+  font-family: "Open Sans";
 
   margin-bottom: 0;
 }
 .sidebar p, .sidebar li {
-  font-family: "Open Sans"
+  font-family: "Open Sans";
   line-height: 1.5;
   font-size: .9em;
 }
@@ -361,7 +371,7 @@ nav li ul, nav li ol {
   display: table-cell;
 
   width: 40px;
-  height: 4opx;
+  height: 40px;
 
   vertical-align: top;
 }
@@ -411,8 +421,8 @@ nav li ul, nav li ol {
 }
 
 .sidebar .author-name {
-  font-family: "Merriweather";
-  font-size: 1.1em;
+  font-family: "Open Sans";
+  font-size: 1.25em;
 }
 .author-bio {
   margin: 0;
@@ -639,7 +649,7 @@ nav li ul, nav li ol {
 }
 
 .post-metadata {
-  font-size: .9em;
+  font-size: .8em;
 
   overflow: hidden;
 
@@ -740,7 +750,8 @@ ul.share li a {
 
   text-align: center;
 
-  color: #7a8288;
+  font-size: .75em;
+  color: #b9b9b9;
 }
 .page_footer::after {
   display: table;
@@ -772,7 +783,7 @@ ul.share li a {
   color: inherit;
 }
 .page_footer .fas, .page_footer .fab, .page_footer .far, .page_footer .fal {
-  color: #7a8288;
+  color: #b9b9b9;;
 }
 
 :-webkit-full-screen-ancestor .masthead, :-webkit-full-screen-ancestor .page_footer {
