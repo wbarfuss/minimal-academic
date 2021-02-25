@@ -40,10 +40,8 @@ enableGitInfo = false
   # Your details.
   name = "Minimal Academic"
   bio = "A minimally academic theme."
-
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
-  location = "San Francisco"
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
   #   Uncomment line below to use.
@@ -65,6 +63,23 @@ enableGitInfo = false
   #   Show a cookie consent message to visitors
   #   Anonymize IP in Google Analytics (if enabled)
   privacy_pack = false
+
+# Header menu links
+  [[params.menu]]
+    link = "/"
+    text = "ABOUT"
+
+  [[params.menu]]
+    link = "/projects"
+    text = "PROJECTS"
+
+  [[params.menu]]
+    link = "/blog"
+    text = "BLOG"
+
+  # [[params.menu]]
+  #  link = "/about"
+  #  text = "ABOUT"
 
   # Social links
   # Shown in sidebar, icons from Font Awesome
@@ -105,23 +120,6 @@ enableGitInfo = false
     icon_pack = "fab"
     link = "//github.com/jhu247"
     text = "Github"
-
-  # Header menu links
-  [[params.menu]]
-    link = "/"
-    text = "HOME"
-
-  [[params.menu]]
-    link = "/projects"
-    text = "PROJECTS"
-
-  [[params.menu]]
-    link = "/blog"
-    text = "BLOG"
-
-  [[params.menu]]
-    link = "/about"
-    text = "ABOUT"
 
 # Taxonomies.
 # [taxonomies]
