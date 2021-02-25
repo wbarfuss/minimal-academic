@@ -426,6 +426,7 @@ nav li ul, nav li ol {
 }
 .author-bio {
   margin: 0;
+  margin-bottom: -5px;
 }
 @media (min-width: 64em) {
   .author-bio {
