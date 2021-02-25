@@ -8,14 +8,16 @@
   {{ .Hugo.Generator }}
   {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
 
-  
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- old  -->
+    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <!-- this one works: see https://fontawesome.com/how-to-use/on-the-web/setup/upgrading-from-version-4 -->
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.15.2/css/all.css"> 
   <link rel="stylesheet" href="{{ printf "//fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,400italic,700|Roboto+Mono" . }}">
   <link rel="stylesheet" href="{{ "styles.css" | relLangURL }}">
   {{ range .Site.Params.custom_css }}
   <link rel="stylesheet" href="{{ "/css/" | relURL }}{{ . }}">
   {{ end }}
-
+  
   {{ if .Site.GoogleAnalytics }}
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;

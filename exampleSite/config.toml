@@ -7,7 +7,7 @@ title = "Minimal Academic"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; Joshua Hu 2018"
+copyright = "&copy; Wolf Barfuss 2021"
 
 theme = "../../"
 enableEmoji = true
@@ -69,45 +69,59 @@ enableGitInfo = false
   # Social links
   # Shown in sidebar, icons from Font Awesome
   [[params.social]]
+    icon = "envelope"
+    icon_pack = "fas"
+    link = "mailto:mail@me.org"
+
+  [[params.social]]
+    icon = "graduation-cap"
+    icon_pack = "fas"
+    link = "https://scholar.google.de/citations?user=ZAqFy78AAAAJ&hl=en"
+
+  [[params.social]]
     icon = "instagram"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "//instagram.com/joshuahu.io"
     text = "Instagram"
 
   [[params.social]]
     icon = "linkedin"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "//linkedin.com/in/joshua-hu-12290a43"
     text = "LinkedIn"
 
   [[params.social]]
     icon = "twitter"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "//twitter.com/jhu247"
-    text = "Twitter"
+
+  [[params.social]]
+    icon = "researchgate"
+    icon_pack = "fab"
+    link = "//researchgate.com/rock"
 
   [[params.social]]
     icon = "github"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "//github.com/jhu247"
     text = "Github"
 
   # Header menu links
   [[params.menu]]
     link = "/"
-    text = "Home"
+    text = "HOME"
 
   [[params.menu]]
     link = "/projects"
-    text = "Projects"
+    text = "PROJECTS"
 
   [[params.menu]]
     link = "/blog"
-    text = "Blog"
+    text = "BLOG"
 
   [[params.menu]]
     link = "/about"
-    text = "About"
+    text = "ABOUT"
 
 # Taxonomies.
 # [taxonomies]

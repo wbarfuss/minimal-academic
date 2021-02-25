@@ -435,6 +435,7 @@ nav li ul, nav li ol {
 }
 .author-urls-wrapper {
   font-family: "Open Sans";
+  font-size: 1.1em;
 
   position: relative;
   position: relative;
@@ -535,16 +536,16 @@ nav li ul, nav li ol {
   white-space: nowrap;
 }
 .author-urls a {
-  font-size: 1em;
-
-  display: block;
+  font-size: 1.0em;
 
   margin-bottom: 5px;
   padding-top: 2px;
-  padding-right: 5px;
+  padding-right: 10px;
   padding-bottom: 2px;
 }
-
+.author-urls a:hover {
+  color: rgb(13, 146, 124);
+}
 /* Page */
 
 .page_content h4 {
