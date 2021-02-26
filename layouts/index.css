@@ -782,9 +782,9 @@ ul.share li a {
     max-width: 1280px;
   }
 }
-.page_footer a {
+/* .page_footer a {
   color: inherit;
-}
+} */
 .page_footer .fas, .page_footer .fab, .page_footer .far, .page_footer .fal {
   color: #b9b9b9;;
 }
