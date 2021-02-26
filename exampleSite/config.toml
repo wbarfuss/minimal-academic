@@ -30,8 +30,9 @@ enableGitInfo = false
   section = [ "HTML", "RSS" ]
 
 # Configure BlackFriday Markdown rendering.
-#   See: https://gohugo.io/readfiles/bfconfig/
+#   See: https://github.com/russross/blackfriday
 [blackfriday]
+  extensions = ['hardLineBreak']
   hrefTargetBlank = true  # `true` opens external links in a new tab.
   fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
   smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
@@ -74,13 +75,14 @@ enableGitInfo = false
     text = "PROJECTS"
 
   [[params.menu]]
+    link = "/publications"
+    text = "PUBLICATIONS"
+
+  [[params.menu]]
     link = "/blog"
     text = "BLOG"
 
-  # [[params.menu]]
-  #  link = "/about"
-  #  text = "ABOUT"
-
+ 
   # Social links
   # Shown in sidebar, icons from Font Awesome
   [[params.social]]
