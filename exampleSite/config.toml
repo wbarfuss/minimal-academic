@@ -42,7 +42,7 @@ enableGitInfo = false
   name = "Minimal Academic"
   bio = "A minimally academic theme."
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-
+  favicon = "favicon.ico" # Path to favicon file
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
   #   Uncomment line below to use.
